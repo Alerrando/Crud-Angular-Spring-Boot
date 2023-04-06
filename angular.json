@@ -8,6 +8,10 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+        },
+
+        "@schematics/angular:application": {
+          "strict": true
         }
       },
       "root": "",
@@ -30,6 +34,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -93,6 +98,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fbb5f477-8fd9-4647-87e1-1c914c7a4e6c"
   }
 }
